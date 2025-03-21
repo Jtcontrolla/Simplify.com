@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import { BsArrowUpRight } from "react-icons/bs";
 import HeroImg from "../assets/hero-image.svg";
 import RectangleImg from "../assets/Rectangle.svg";
@@ -9,7 +8,7 @@ import Vector from "../assets/Vector.svg";
 
 export default function Hero() {
     return (
-        <section className="bg-[#19191B]">
+        <section className="bg-[#19191B]" id="home">
             <div className="flex justify-between items-center">
                 <div className="pl-[123px] pt-[181px] relative">
                     <div 
@@ -19,12 +18,12 @@ export default function Hero() {
                     <h1 className="text-white font-[Roboto] text-8xl font-[900] leading-[127.6px] pt-[44px] w-[693px] h-[256px] relative z-20">Strategy Design Technology</h1>
                     <h2 className="text-white font-[Montserrat] text-[22px] font-semibold w-[680.94px] pt-[40px] relative z-20">Crafting Brands And Beautiful <br/>Digital Experiences</h2>
                     <div className="pt-[94px]">
-                        <Link to="/Services">
+                        <a href="/Services">
                             <button 
                                 className="text-white font-[Nunito_Sans] text-[20px] font-[700] px-[27px] pt-[15px] pb-[15px] bg-[#E8618C] rounded-sm cursor-pointer hover:bg-[#E8618C]/60">
                                 Our Services <BsArrowUpRight className="inline"/>
                             </button>
-                        </Link>
+                        </a>
                     </div>
                     <div className="absolute top-[510px] right-[100px]">
                         <img src={Triangles} alt="Triangles"/>
@@ -35,7 +34,7 @@ export default function Hero() {
                 </div>
                 <div className="relative">
                     <div 
-                        className="absolute bottom-auto left-auto -right-[100px] top-[120px] h-[650px] w-[600px] rounded-[233.5px] bg-gradient-to-b from-[rgba(251,168,28,0.26)] to-[rgba(224,86,136,0.15)] blur-[150px] opacity-60 rotate-[65deg]">
+                        className="absolute bottom-auto left-auto right-[150px] top-[120px] h-[650px] w-[600px] rounded-[233.5px] bg-gradient-to-b from-[rgba(251,168,28,0.26)] to-[rgba(224,86,136,0.15)] blur-[150px] opacity-60 rotate-[65deg]">
                     </div>
                     <div className="relative z-20">
                         <img src={HeroImg} alt="Hero Image"/>
