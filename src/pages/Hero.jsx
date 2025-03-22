@@ -15,7 +15,7 @@ export default function Hero() {
                         className="absolute bottom-auto right-auto -left-[100px] -top-[370px] h-[1233px] w-[467px] rounded-[233.5px] bg-gradient-to-b from-[rgba(84,84,212,1)] to-[rgba(84,84,212,0.42)] blur-[150px] opacity-30 -rotate-[53deg]">
                     </div>
                     <h2 className="text-white font-[Montserrat] text-[22px] font-semibold w-[336px] h-[29px] relative z-20">WELCOME TO SIMPLIFY</h2>
-                    <h1 className="text-white font-[Roboto] text-8xl font-[900] leading-[127.6px] pt-[44px] w-[693px] h-[256px] relative z-20">Strategy Design Technology</h1>
+                    <h1 className="text-white font-[Roboto] text-8xl font-[800] leading-[127.6px] pt-[44px] w-[663px] h-[256px] relative z-20">Strategy Design Technology</h1>
                     <h2 className="text-white font-[Montserrat] text-[22px] font-semibold w-[680.94px] pt-[40px] relative z-20">Crafting Brands And Beautiful <br/>Digital Experiences</h2>
                     <div className="pt-[94px]">
                         <a href="/Services">
@@ -25,7 +25,7 @@ export default function Hero() {
                             </button>
                         </a>
                     </div>
-                    <div className="absolute top-[510px] right-[100px]">
+                    <div className="absolute top-[510px] right-[120px]">
                         <img src={Triangles} alt="Triangles"/>
                     </div>
                     <div className="absolute top-[180px] right-[100px]">
