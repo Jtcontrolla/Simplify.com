@@ -15,7 +15,7 @@ export default function Hero() {
                         className="absolute bottom-auto right-auto -left-[100px] -top-[370px] h-[1233px] w-[467px] rounded-[233.5px] bg-gradient-to-b from-[rgba(84,84,212,1)] to-[rgba(84,84,212,0.42)] blur-[150px] opacity-30 -rotate-[53deg]">
                     </div>
                     <h2 className="text-white font-[Montserrat] text-[22px] font-semibold w-[336px] h-[29px] relative z-20">WELCOME TO SIMPLIFY</h2>
-                    <h1 className="text-white font-[Roboto] text-8xl font-[800] leading-[127.6px] pt-[44px] w-[663px] h-[256px] relative z-20">Strategy Design Technology</h1>
+                    <h1 className="text-white font-[Roboto] text-7xl font-[600] leading-[110.6px] pt-[44px] w-[553px] h-[256px] relative z-20">Strategy Design Technology</h1>
                     <h2 className="text-white font-[Montserrat] text-[22px] font-semibold w-[680.94px] pt-[40px] relative z-20">Crafting Brands And Beautiful <br/>Digital Experiences</h2>
                     <div className="pt-[94px]">
                         <a href="/Services">
@@ -26,13 +26,13 @@ export default function Hero() {
                         </a>
                     </div>
                     <div className="absolute top-[510px] right-[120px]">
-                        <img src={Triangles} alt="Triangles"/>
+                        <img src={Triangles} alt="Triangles" width={60}/>
                     </div>
                     <div className="absolute top-[180px] right-[100px]">
-                        <img src={Vector} alt="Vector"/>
+                        <img src={Vector} alt="Vector" width={50}/>
                     </div>
                 </div>
-                <div className="relative">
+                <div className="relative mr-15" >
                     <div 
                         className="absolute bottom-auto left-auto right-[150px] top-[120px] h-[650px] w-[600px] rounded-[233.5px] bg-gradient-to-b from-[rgba(251,168,28,0.26)] to-[rgba(224,86,136,0.15)] blur-[150px] opacity-60 rotate-[65deg]">
                     </div>
@@ -44,10 +44,10 @@ export default function Hero() {
                     </div>
                     <div className="z-10">
                         <div className="absolute top-[420px] right-[50px]">
-                            <img src={Plus} alt="Plus"/>
+                            <img src={Plus} alt="Plus" width={50}/>
                         </div>
                         <div className="absolute top-[30px] right-[50px]">
-                            <img src={Circles} alt="Circles"/>
+                            <img src={Circles} alt="Circles" width={50}/>
                         </div>
                     </div>
                 </div>
