@@ -26,24 +26,24 @@ export default function Services () {
 
             <div className="flex text-white w-[1010px] gap-5 mt-20 text-center ml-32">
                 <div>
-                    <div className="hover:bg-[#46465c] w-10 h-10 rounded-3xl ml-30">
-                        <MdOutlineDeveloperMode className="text-[#5454D4] rounded-3xl relative top-3 left-3"/>
+                    <div className="hover:bg-[#46465c] w-12 h-12 rounded-3xl ml-30">
+                        <MdOutlineDeveloperMode className="text-[#5454D4] text-2xl rounded-3xl relative top-3 left-3"/>
                     </div>
                     <h3 className="text-[20px]">Development</h3>
                     <p className="text-[#ccc]">Create a platform with the best and coolest quality from us.</p>
                 </div>
 
                 <div>
-                    <div className="hover:bg-[#483332] w-10 h-10 rounded-3xl ml-47">
-                        <MdOutlineDesignServices className="text-[#F04037] rounded-3xl relative top-3 left-3"/>
+                    <div className="hover:bg-[#483332] w-12 h-12 rounded-3xl ml-47">
+                        <MdOutlineDesignServices className="text-[#F04037] text-2xl rounded-3xl relative top-3 left-3"/>
                     </div>
                     <h3 className="text-[20px]">UI/UX Design</h3>
                     <p className="text-[#ccc]">We provide UI/UX Design / Product Design services, and of course with the best quality</p>
                 </div>
 
                 <div>
-                    <div className="hover:bg-[#59564b] w-10 h-10 rounded-3xl ml-30">
-                        <AiOutlineAntDesign className="text-[#FEDC5A] rounded-3xl relative top-3 left-3"/>
+                    <div className="hover:bg-[#59564b] w-12 h-12 rounded-3xl ml-30">
+                        <AiOutlineAntDesign className="text-[#FEDC5A] text-2xl rounded-3xl relative top-3 left-3"/>
                     </div>
                     <h3 className="text-[20px]">Graphic Design</h3>
                     <p className="text-[#ccc]">We provide Graphic Design services, with the best designers</p>
@@ -52,24 +52,24 @@ export default function Services () {
 
             <div className="flex text-white w-[1010px] gap-5 mt-20 text-center ml-32">
                 <div>
-                    <div className="hover:bg-[#59564b] w-10 h-10 rounded-3xl ml-30">
-                        <FaBrain className="text-[#FEDC5A] rounded-3xl relative top-3 left-3"/>
+                    <div className="hover:bg-[#59564b] w-12 h-12 rounded-3xl ml-30">
+                        <FaBrain className="text-[#FEDC5A] text-2xl rounded-3xl relative top-3 left-3"/>
                     </div>
                     <h3 className="text-[20px]">AI Integration</h3>
                     <p className="text-[#ccc]">Create a platform with the best and coolest quality from us.</p>
                 </div>
 
                 <div>
-                    <div className="hover:bg-[#46465c] w-10 h-10 rounded-3xl ml-47">
-                        <AiOutlineProduct className="text-[#5454D4] rounded-3xl relative top-3 left-3"/>
+                    <div className="hover:bg-[#46465c] w-12 h-12 rounded-3xl ml-47">
+                        <AiOutlineProduct className="text-[#5454D4] text-2xl rounded-3xl relative top-3 left-3"/>
                     </div>
                     <h3 className="text-[20px]">UI/UX Design</h3>
                     <p className="text-[#ccc]">We provide UI/UX Design / Product Design services, and of course with the best quality</p>
                 </div>
 
                 <div>
-                    <div className="hover:bg-[#483332] w-10 h-10 rounded-3xl ml-30">
-                        <GrVmMaintenance className="text-[#F04037] rounded-3xl relative top-3 left-3"/>
+                    <div className="hover:bg-[#483332] w-12 h-12 rounded-3xl ml-30">
+                        <GrVmMaintenance className="text-[#F04037] text-2xl rounded-3xl relative top-3 left-3"/>
                     </div>
                     <h3 className="text-[20px]">Graphic Design</h3>
                     <p className="text-[#ccc]">We provide Graphic Design services, with the best designers</p>
