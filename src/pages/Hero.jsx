@@ -18,7 +18,7 @@ export default function Hero() {
                     <h1 className="text-white font-[Roboto] text-7xl font-[600] leading-[110.6px] pt-[44px] w-[553px] h-[256px] relative z-20">Strategy Design Technology</h1>
                     <h2 className="text-white font-[Montserrat] text-[22px] font-semibold w-[680.94px] pt-[40px] relative z-20">Crafting Brands And Beautiful <br/>Digital Experiences</h2>
                     <div className="pt-[94px]">
-                        <a href="/Services">
+                        <a href="#services">
                             <button 
                                 className="text-white font-[Nunito_Sans] text-[20px] font-[700] px-[27px] pt-[15px] pb-[15px] bg-[#E8618C] rounded-sm cursor-pointer hover:bg-[#E8618C]/60">
                                 Our Services <BsArrowUpRight className="inline"/>
