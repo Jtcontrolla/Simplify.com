@@ -11,9 +11,9 @@ import { MdUnsubscribe } from "react-icons/md";
 export default function Projects () {
     return (
         <section className="bg-[#19191B]" id="projects">
-            <h2 className="text-white font-[Roboto] text-5xl font-[600] leading-[70.6px] pt-[44px] w-[593px] ml-15 text-center mt-35">Our Awesome Portfolio</h2>
+            <h2 className="text-white font-[Nunito_Sans] text-5xl font-extrabold leading-[70.6px] pt-[44px] w-[593px] ml-15 text-center mt-35">Our Awesome Portfolio</h2>
 
-            <div className="absolute top-[2400px] right-[130px]">
+            <div className="absolute top-[2650px] right-[130px]">
                 <img src={Circles} alt="Circles" width={50}/>
             </div>
 
@@ -21,32 +21,37 @@ export default function Projects () {
                 <img src={Vector} alt="Vector" width={50}/>
             </div>
 
+            {/* Gradient */}
+            <div 
+                className="absolute left-[900px] top-[2530px] h-[300px] w-[300px] rounded-[233.5px] bg-gradient-to-b from-[rgba(84,84,212,1)] to-[rgba(84,84,212,0.42)] blur-[180px] opacity-30 -rotate-[125.63deg]">
+            </div>
+
             {/* portfolios */}
             <div className="flex gap-7 justify-center mt-20">
-                <div className="">
-                    <a href=""><img src={Work1} alt=""  width={300}/></a>
+                <div className="border-1 border-[#1E1E20] rounded-[14px]">
+                    <a href=""><img src={Work1} alt=""  width={336} height={253}/></a>
                 </div>
 
                 <div className="mt-10">
-                    <a href=""><img src={Work2} alt="" width={300}/></a>
+                    <a href=""><img src={Work2} alt="" width={336} height={253}/></a>
                 </div>
 
                 <div className="mt-20">
-                    <a href=""><img src={Work3} alt="" width={300}/></a>
+                    <a href=""><img src={Work3} alt="" width={336} height={253}/></a>
                 </div>
             </div>
 
             <div className="flex gap-7 justify-center">
                 <div className="">
-                    <a href=""><img src={Work2} alt=""  width={300}/></a>
+                    <a href=""><img src={Work2} alt=""  width={336} height={253}/></a>
                 </div>
 
                 <div className="mt-10">
-                    <a href=""><img src={Work1} alt="" width={300}/></a>
+                    <a href=""><img src={Work1} alt="" width={336} height={253}/></a>
                 </div>
 
                 <div className="mt-20">
-                    <a href=""><img src={Work3} alt="" width={300}/></a>
+                    <a href=""><img src={Work3} alt="" width={336} height={253}/></a>
                 </div>
             </div>
 

@@ -11,9 +11,11 @@ export default function Hero() {
         <section className="bg-[#19191B]" id="home">
             <div className="flex justify-between items-center">
                 <div className="pl-[123px] pt-[181px] relative">
+                    {/* Gradient */}
                     <div 
-                        className="absolute bottom-auto right-auto -left-[100px] -top-[370px] h-[1233px] w-[467px] rounded-[233.5px] bg-gradient-to-b from-[rgba(84,84,212,1)] to-[rgba(84,84,212,0.42)] blur-[150px] opacity-30 -rotate-[53deg]">
+                        className="absolute bottom-auto right-auto -left-[100px] -top-[370px] h-[1233px] w-[467px] rounded-[233.5px] bg-gradient-to-b from-[rgba(84,84,212,1)] to-[rgba(84,84,212,0.42)] blur-[300px] opacity-30 -rotate-[53deg]">
                     </div>
+                    {/* Hero Text */}
                     <h2 className="text-white font-[Montserrat] text-[22px] font-semibold w-[336px] h-[29px] relative z-20">WELCOME TO SIMPLIFY</h2>
                     <h1 className="text-white font-[Roboto] text-7xl font-[600] leading-[110.6px] pt-[44px] w-[553px] h-[256px] relative z-20">Strategy Design Technology</h1>
                     <h2 className="text-white font-[Montserrat] text-[22px] font-semibold w-[680.94px] pt-[40px] relative z-20">Crafting Brands And Beautiful <br/>Digital Experiences</h2>
@@ -33,9 +35,11 @@ export default function Hero() {
                     </div>
                 </div>
                 <div className="relative mr-15" >
+                    {/* Gradient */}
                     <div 
                         className="absolute bottom-auto left-auto right-[150px] top-[120px] h-[650px] w-[600px] rounded-[233.5px] bg-gradient-to-b from-[rgba(251,168,28,0.26)] to-[rgba(224,86,136,0.15)] blur-[150px] opacity-60 rotate-[65deg]">
                     </div>
+                    {/* Hero Image */}
                     <div className="relative z-20">
                         <img src={HeroImg} alt="Hero Image"/>
                     </div>

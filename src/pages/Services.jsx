@@ -14,13 +14,13 @@ export default function Services () {
             <h2 className="text-white font-[Roboto] text-5xl font-[600] leading-[70.6px] pt-[44px] w-[593px] ml-85 text-center mt-35">The Service We Provide
             For You</h2>
 
-            <div className="absolute top-[1610px] right-[1060px]">
+            <div className="absolute top-[1848px] right-[1060px]">
                 <img src={Triangles} alt="Triangles" width={60}/>
             </div>
-            <div className="absolute top-[1700px] right-[110px]">
+            <div className="absolute top-[1950px] right-[110px] rotate-[31.42deg]">
                 <img src={Plus} alt="Plus" width={40}/>
             </div>
-            <div className="absolute top-[2190px] right-[1120px]">
+            <div className="absolute top-[2460px] right-[1120px] -rotate-[25.34deg]">
                 <img src={Plus} alt="Plus" width={40}/>
             </div>
 

@@ -6,10 +6,20 @@ import NodeJS from '../assets/NodeJS.svg'
 import JQuery from '../assets/JQuery.svg'
 import HTML from '../assets/HTML.svg'
 import CSS from '../assets/CSS.svg'
+import Tailwind from '../assets/Tailwind.svg'
+import Python from '../assets/Python.svg'
+import Development from '../assets/Development.svg'
+import CustomerService from '../assets/CustomerService.svg'
+import AdobeID from '../assets/AdobeID.svg'
+import Flutter from '../assets/Flutter.svg'
+import Swift from '../assets/Swift.svg'
+import Java from '../assets/Java.svg'
+import Framer from '../assets/Framer.svg'
+import AdobeXD from '../assets/AdobeXD.svg'
 
 export default function About() {
     return (
-        <div className="bg-[#19191B] pt-[240px]" id="about">
+        <section className="bg-[#19191B] pt-[240px]" id="about">
             <div className="flex justify-center gap-6 max-w-[1200px] max-h-[140px]">
                 <div className="min-w-[588px] max-h-[140px] pl-[50px]">
                     <h2 className="text-white font-[Poppins] text-6xl font-bold leading-[70px] tracking-[0px]">
@@ -32,30 +42,24 @@ export default function About() {
                 </p>            
             </div>
             {/* Images */}
-            <div className='relative top-[-450px] left-[-45px] max-w-[219px]'>
-                <img src={UI_UX} alt="UI/UX" className="w-[219px] h-[219px]"/>
-            </div>
-            <div className='relative top-[-600px] left-[187px] max-w-[112px]'>
-                <img src={AdobeIllust} alt="Adobe Illustrator" className="w-[112px] h-[112px] opacity-40"/>
-            </div>
-            <div className='relative top-[-835px] left-[747px] max-w-[135px]'>
-                <img src={Figma} alt="Figma" className="w-[135px] h-[135px] opacity-60"/>
-            </div>
-            <div className='relative top-[-932px] left-[1080px] max-w-[84px]'>
-                <img src={React} alt="React" className="w-[84px] h-[84px] opacity-50"/>
-            </div>
-            <div className='relative top-[-932px] left-[920px] max-w-[84px]'>
-                <img src={NodeJS} alt="NodeJS" className="w-[84px] h-[84px] opacity-40"/>
-            </div>
-            <div className='relative top-[-910px] left-[920px] max-w-[84px]'>
-                <img src={JQuery} alt="JQuery" className="w-[84px] h-[84px] opacity-50"/>
-            </div>
-            <div className='relative top-[-880px] left-[1030px] max-w-[80px]'>
-                <img src={HTML} alt="HTML" className="w-[80px] h-[80px] opacity-50"/>
-            </div>
-            <div className='relative top-[-967px] left-[1123px] max-w-[92px]'>
-                <img src={CSS} alt="CSS" className="w-[92px] h-[92px] opacity-50"/>
-            </div>
-        </div>
+            <img src={UI_UX} alt="UI/UX" className="absolute top-[1189px] left-[-45px] w-[219px] h-[219px]"/>
+            <img src={AdobeIllust} alt="Adobe Illustrator" className="absolute top-[1257px] left-[187px] w-[112px] h-[112px] opacity-40"/>
+            <img src={Figma} alt="Figma" className="absolute top-[1115px] left-[747px] w-[135px] h-[135px] opacity-60"/>
+            <img src={React} alt="React" className="absolute top-[1179px] left-[1080px] w-[84px] h-[84px] opacity-50"/>
+            <img src={NodeJS} alt="NodeJS" className="absolute top-[1263px] left-[950px] w-[84px] h-[84px] opacity-40"/>
+            <img src={JQuery} alt="JQuery" className="absolute top-[1373px] left-[950px] w-[84px] h-[84px] opacity-50"/>
+            <img src={HTML} alt="HTML" className="absolute top-[1481px] left-[1030px] w-[80px] h-[80px] opacity-50"/>
+            <img src={CSS} alt="CSS" className="absolute top-[1471px] left-[1123px] w-[92px] h-[92px] opacity-50"/>
+            <img src={Tailwind} alt="Tailwind" className="absolute top-[1373px] left-[1230px] w-[34px] h-[84px] opacity-50"/>
+            <img src={Python} alt="Python" className="absolute top-[1244px] left-[1230px] w-[34px] h-[86px] opacity-50"/>
+            <img src={Development} alt="Development" className="absolute top-[1335px] left-[1100px] w-[84px] h-[83px] opacity-50"/>
+            <img src={CustomerService} alt="CustomerService" className="absolute top-[1596px] left-[900px] w-[80px] h-[80px] opacity-50"/>
+            <img src={AdobeID} alt="AdobeID" className="absolute top-[1613px] left-[600px] w-[112px] h-[112px] opacity-50"/>
+            <img src={Framer} alt="Framer" className="absolute top-[1668px] left-[1090px] w-[112px] h-[112px]"/>
+            <img src={Java} alt="Java" className="absolute top-[1701px] left-[308px] w-[84px] h-[83px] opacity-50"/>
+            <img src={Swift} alt="Swift" className="absolute top-[1701px] left-[405px] w-[84px] h-[84px] opacity-50"/>
+            <img src={Flutter} alt="Flutter" className="absolute top-[1701px] left-[490px] w-[84px] h-[84px] opacity-50"/>
+            <img src={AdobeXD} alt="Flutter" className="absolute top-[1634px] left-[82.59px] w-[100.69px] h-[100.69px]"/>
+        </section>
     );
 }
