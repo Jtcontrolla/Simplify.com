@@ -20,14 +20,14 @@ import AdobeXD from '../assets/AdobeXD.svg'
 export default function About() {
     return (
         <section className="bg-[#19191B] pt-[240px]" id="about">
-            <div className="flex justify-center gap-6 max-w-[1200px] max-h-[140px]">
-                <div className="min-w-[588px] max-h-[140px] pl-[50px]">
+            <div className="flex justify-center gap-6 w-full max-h-[140px] px-[120px] mb-[50px]">
+                <div className="min-w-[588px] max-h-[140px]">
                     <h2 className="text-white font-[Poppins] text-6xl font-bold leading-[70px] tracking-[0px]">
                         Why Simplify Is The Best Choice?
                     </h2>
                 </div>
-                <div className="max-w-[588px] max-h-[117px] pr-[50px]">
-                    <p className="text-[#ccc] font-[Nunito_Sans] font-normal leading-[39px] tracking-[-0.66px] text-[21px]">We're Simplify, a global design, branding, and development
+                <div className="max-w-[588px] max-h-[117px]">
+                    <p className="text-[#ccc] font-[Nunito_Sans] font-normal leading-[39px] tracking-[-0.66px] text-[18px]">We're Simplify, a global design, branding, and development
                        agency. We craft thoughtful digital experiences, stunning brand
                        aesthetics, and innovative solutions.</p>
                 </div>
