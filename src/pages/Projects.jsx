@@ -7,6 +7,9 @@ import Work3 from '../assets/Work3.png'
 import { GiAlliedStar } from "react-icons/gi";
 import { RiTeamFill } from "react-icons/ri";
 import { MdUnsubscribe } from "react-icons/md";
+import Trustpilot from "../assets/Trustpilot.svg"
+import Goldstar from "../assets/Goldstar.svg"
+import Inc5000 from "../assets/Inc5000.svg"
 
 export default function Projects () {
     return (
@@ -130,18 +133,20 @@ export default function Projects () {
                 </div>
             </div>
             
-            <div className="flex bg-[#5454D4] text-white w-250 rounded-3xl ml-34 mt-20 h-95 justify-center gap-35">
+            <div className="flex bg-[#5454D4] text-white rounded-3xl mt-20 h-95 justify-center gap-35 mx-[120px]">
                 <div className="mt-28">
-                    <div className="flex gap-4 mb-10">
-                        <div className="bg-[#EDC2F1] w-1.5 h-10 mt-1.5"></div>
-                        <div className="w-32">
-                            <p>But without any of the headaches</p>
+                    <div className="flex items-center gap-4 mb-10">
+                        <div className="bg-linear-to-b from-[#9864FD] to-[#EDC2F1] w-2 h-[58px] mt-1.5"></div>
+                        <div className="w-[255px]">
+                            <p className="font-[Montserrat] font-semibold text-[26px] leading-[26px] tracking-[0px]">
+                                But without any of the headaches
+                            </p>
                         </div>
                     </div>
                     
                     <a href="">
                         <button 
-                            className="text-white font-[Nunito_Sans] text-[15px] font-[500] px-[27px] pt-[15px] pb-[15px] bg-[#E8618C] rounded-sm cursor-pointer hover:bg-[#E8618C]/60">
+                            className="text-white font-[Arial] text-[15px] leading-[28px] font-bold px-[22px] py-6 bg-transparent border-4 border-[#E8618C] rounded-[10px] cursor-pointer hover:bg-[#E8618C]">
                             Get Started With Simplify
                         </button>
                     </a>
@@ -150,15 +155,19 @@ export default function Projects () {
                 <div className="mt-20">
                     <div className="flex gap-15 mb-20">
                         <div>
-                            <h2 className="text-white font-[Roboto] text-4xl font-[600]">100+</h2>
-                            <p className="text-[#ccc] text-[14px]">
+                            <h2 className="text-white font-[Arial] text-[50.86px] font-black leading-[64px] tracking-[0.2px]">
+                                100+
+                            </h2>
+                            <p className="text-white text-[16px] font-normal leading-[24px] font-[Inter]">
                                 Designs delivered worldwide
                             </p>
                         </div>
 
                         <div>
-                            <h2 className="text-white font-[Roboto] text-4xl font-[600]">95+</h2>
-                            <p className="text-[#ccc] text-[14px]">
+                            <h2 className="text-white font-[Arial] text-[50.86px] font-black leading-[64px] tracking-[0.2px]">
+                                95+
+                            </h2>
+                            <p className="text-white text-[16px] font-normal leading-[24px] font-[Inter]">
                                 Designs categories available
                             </p>
                         </div>
@@ -166,18 +175,55 @@ export default function Projects () {
 
                     <div className="flex gap-29">
                         <div>
-                            <h2 className="text-white font-[Roboto] text-4xl font-[600]">50+</h2>
-                            <p className="text-[#ccc] text-[14px]">
+                            <h2 className="text-white font-[Arial] text-[50.86px] font-black leading-[64px] tracking-[0.2px]">
+                                50+
+                            </h2>
+                            <p className="text-white text-[16px] font-normal leading-[24px] font-[Inter]">
                                 Less in design costs
                             </p>
                         </div>
 
                         <div>
-                            <h2 className="text-white font-[Roboto] text-4xl font-[600]">99+</h2>
-                            <p className="text-[#ccc] text-[14px]">
+                            <h2 className="text-white font-[Arial] text-[50.86px] font-black leading-[64px] tracking-[0.2px]">
+                                99+
+                            </h2>
+                            <p className="text-white text-[16px] font-normal leading-[24px] font-[Inter]">
                                 Customer satisfaction rate
                             </p>
                         </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="flex justify-center items-center gap-[60px] mt-28 mx-[120px]">
+                <div className="flex items-center gap-4">
+                    <div className="w-32 h-[94px]">
+                        <img src={Trustpilot} alt="Trustpilot"/>
+                    </div>
+                    <div className="w-[150px]">
+                        <p className="font-[Inter] font-semibold text-[16px] leading-[24px] text-white">
+                            Highest rated design service
+                        </p>
+                    </div>
+                </div>
+                <div className="flex items-center gap-4">
+                    <div className="">
+                        <img src={Goldstar} alt="Goldstar"/>
+                    </div>
+                    <div className="w-[150px]">
+                        <p className="font-[Inter] font-semibold text-[16px] leading-[24px] text-white">
+                            Trusted by over 4000 agencies
+                        </p>  
+                    </div>
+                </div>
+                <div className="flex items-center gap-4">
+                    <div className="">
+                        <img src={Inc5000} alt="Inc5000"/>
+                    </div>
+                    <div className="w-[151px]">
+                        <p className="font-[Inter] font-semibold text-[16px] leading-[24px] text-white">
+                            One of the fastest growing companies in America
+                        </p>
                     </div>
                 </div>
             </div>

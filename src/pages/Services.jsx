@@ -34,7 +34,7 @@ export default function Services () {
                 className="absolute left-[22px] top-[1960px] h-[1400px] w-[860px] rounded-[233.5px] bg-gradient-to-b from-[rgba(251,168,28,0.4)] to-[rgba(224,86,136,0.15)] blur-[300px] opacity-30 rotate-[67.1deg]">
             </div>
 
-            <div className="flex justify-center align-top w-full gap-[24px] mt-20 px-[120px] text-center text-white relative z-20">
+            <div className="flex justify-center w-full gap-[24px] mt-20 px-[120px] text-center text-white relative z-20">
                 <div className="flex flex-col justify-center items-center w-[384px] h-[300px]">
                     <div className="hover:bg-[#46465c] w-12 h-12 rounded-3xl">
                         <MdOutlineDeveloperMode className="text-[#5454D4] text-2xl rounded-3xl relative top-3 left-3"/>
