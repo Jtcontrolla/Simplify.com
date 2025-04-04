@@ -71,7 +71,7 @@ export default function Projects () {
                 </p>
             </div>
 
-            <div className="absolute top-[3280px] right-[960px]">
+            <div className="absolute top-[3880px] left-[100px]">
                 <img src={Circles} alt="Circles" width={50}/>
             </div>
 
