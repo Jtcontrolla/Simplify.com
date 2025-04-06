@@ -8,5 +8,8 @@ export default defineConfig({
     react(),
     tailwindcss()
   ],
+  assetsInclude: [
+    "**/*.JPG"
+  ],
   base: '/Simplify.com' // Keep this only if needed
 })

@@ -1,7 +1,7 @@
 import Team1 from "../assets/Team1.png"
 import Team2 from "../assets/Team2.png"
 import Team3 from "../assets/Team3.png"
-import Team4 from "../assets/Team4.png"
+import Team4 from "../assets/Team4.JPG"
 import InvertedCommas from "../assets/inverted-commas.svg"
 import Testimonial1 from "../assets/Testimonial1.png"
 
@@ -15,7 +15,7 @@ export default function Team_Testimonial () {
                 </h2>
                 <div className="flex gap-[38px] mt-14 mb-[98px]">
                     <div className="flex items-center">
-                        <img src={Team1} alt="Team1" className="rounded-l-xl"/>
+                        <img src={Team1} alt="Team1" className="rounded-l-[15px] h-[94px]" width={102} height={94}/>
                         <div className="bg-white w-[167px] h-[94px] rounded-r-xl flex flex-col items-center justify-center">
                             <h5 className="font-[Arial] font-bold text-[17.02px] leading-[20px] tracking-[0.2px]">
                                 Sarah A
@@ -26,7 +26,7 @@ export default function Team_Testimonial () {
                         </div>
                     </div>
                     <div className="flex items-center">
-                        <img src={Team2} alt="Team2" className="rounded-l-[15px]"/>
+                        <img src={Team2} alt="Team2" className="rounded-l-[15px] h-[94px]" width={102} height={94}/>
                         <div className="bg-white w-[167px] h-[94px] rounded-r-[15px] flex flex-col items-center justify-center">
                             <h5 className="font-[Arial] font-bold text-[17.02px] leading-[20px] tracking-[0.2px]">
                                 David J.O
@@ -37,7 +37,7 @@ export default function Team_Testimonial () {
                         </div>
                     </div>
                     <div className="flex items-center">
-                        <img src={Team3} alt="Team3" className="rounded-l-[15px]"/>
+                        <img src={Team3} alt="Team3" className="rounded-l-[15px] h-[94px]" width={102} height={94}/>
                         <div className="bg-white w-[167px] h-[94px] rounded-r-[15px] flex flex-col items-center justify-center">
                             <h5 className="font-[Arial] font-bold text-[17.02px] leading-[20px] tracking-[0.2px]">
                                 Chloe Xmas
@@ -48,13 +48,13 @@ export default function Team_Testimonial () {
                         </div>
                     </div>
                     <div className="flex items-center">
-                        <img src={Team4} alt="Team4" className="rounded-l-[15px]"/>
+                        <img src={Team4} alt="Team4" className="rounded-l-[15px] h-[94px]" width={102} height={94}/>
                         <div className="bg-white w-[167px] h-[94px] rounded-r-[15px] flex flex-col items-center justify-center">
                             <h5 className="font-[Arial] font-bold text-[17.02px] leading-[20px] tracking-[0.2px]">
-                                John Doe
+                                Otonbara Okolai
                             </h5>
                             <p className="font-[Inter] text-[16px] font-normal leading-[24px] text-center">
-                                Full-Stack Developer
+                                Front-End Developer
                             </p>
                         </div>
                     </div>

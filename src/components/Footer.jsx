@@ -48,6 +48,14 @@ export default function Footer () {
                     <button className="border border-[#BCC1CA] font-[Inter] font-normal text-sm leading-[22px] text-[#DEE1E6] px-3 py-1.5 rounded-md cursor-pointer">English</button>
                 </div>
                 <div>
+                    <ul className="flex items-center list-disc font-[Inter] font-normal text-sm leading-[22px] text-white gap-4">
+                        <li className="list-none">© {new Date().getFullYear()} Brand, Inc.</li>
+                        <li>Privacy</li>
+                        <li>Terms</li>
+                        <li>Sitemap</li>
+                    </ul>
+                </div>
+                <div>
                     <ul className="flex gap-6">
                         <li className="text-[#4CD2FF] w-6 h-6 cursor-pointer transition hover:scale-110"><a href=""></a><BsTwitter/></li>
                         <li className="text-[#4C8AFF] w-6 h-6 cursor-pointer transition hover:scale-110"><a href=""></a><BsFacebook/></li>
