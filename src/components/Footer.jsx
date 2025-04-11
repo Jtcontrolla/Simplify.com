@@ -7,7 +7,7 @@ import Logo from "../assets/Logo.svg"
 
 export default function Footer () {
     return (
-        <section className="bg-[#1D2128] px-[120px]">
+        <section className="bg-[#1D2128] lg:px-[120px] px-[30px]">
             <div className="flex flex-col justify-center items-center">
                 <h5 className="font-semibold text-xl leading-[30px] text-white mt-24">Subscribe to our newsletter</h5>
                 <form className="flex items-center mt-2">
@@ -25,25 +25,25 @@ export default function Footer () {
                         </button>
                     </div>
                 </form>
-                <div className="flex justify-between mt-[83px] items-center gap-[253px]">
+                <div className="flex flex-col lg:flex-row justify-between mt-[83px] items-center lg:gap-[253px] gap-10">
                     <div>
                         <img src={Logo} alt="Simplify Logo"/>
                     </div>
                     <div>
-                        <ul className="flex gap-10 font-[Inter] text-[12px] font-normal text-white leading-[28px]">
-                            <li><a href="#">Pricing</a></li>
-                            <li><a href="#about">About us</a></li>
-                            <li><a href="#">Features</a></li>
-                            <li><a href="#">Help Center</a></li>
-                            <li><a href="#contact">Contact us</a></li>
-                            <li><a href="#">FAQs</a></li>
-                            <li><a href="#">Careers</a></li>
+                        <ul className="flex flex-col lg:flex-row md:flex-row gap-10 font-[Inter] lg:text-[12px] text-md font-normal text-white leading-[28px]">
+                            <li><a className="hover:text-[#5454D4] hover:font-semibold" href="#">Pricing</a></li>
+                            <li><a className="hover:text-[#5454D4] hover:font-semibold" href="#about">About us</a></li>
+                            <li><a className="hover:text-[#5454D4] hover:font-semibold" href="#">Features</a></li>
+                            <li><a className="hover:text-[#5454D4] hover:font-semibold" href="#">Help Center</a></li>
+                            <li><a className="hover:text-[#5454D4] hover:font-semibold" href="#contact">Contact us</a></li>
+                            <li><a className="hover:text-[#5454D4] hover:font-semibold" href="#">FAQs</a></li>
+                            <li><a className="hover:text-[#5454D4] hover:font-semibold" href="#">Careers</a></li>
                         </ul>
                     </div>
                 </div>
                 <div className="border border-[#DEE1E6] w-full mt-[34px]"></div>
             </div>
-            <div className="flex justify-between items-center py-6">
+            <div className="flex flex-col lg:flex-row justify-between items-center py-6 gap-10">
                 <div>
                     <button className="border border-[#BCC1CA] font-[Inter] font-normal text-sm leading-[22px] text-[#DEE1E6] px-3 py-1.5 rounded-md cursor-pointer">English</button>
                 </div>

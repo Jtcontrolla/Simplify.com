@@ -10,7 +10,7 @@ export default function Hero() {
     return (
         <section className="bg-[#19191B]" id="home">
             <div className="flex flex-col-reverse justify-center lg:flex-row lg:justify-between items-center">
-                <div className="lg:pl-[123px] lg:pt-[181px] py-5 relative">
+                <div className="lg:pl-[123px] lg:pt-[181px] relative">
                     {/* Gradient */}
                     <div 
                         className="absolute bottom-auto right-auto -left-[100px] -top-[370px] h-[1233px] w-[467px] rounded-[233.5px] 
@@ -53,7 +53,7 @@ export default function Hero() {
                     <div className="relative z-20 flex justify-center items-center">
                         <img src={HeroImg} alt="Hero Image"/>
                     </div>
-                    <div className="absolute top-[110px] right-[65px] z-10 hidden lg:block">
+                    <div className="absolute top-[140px] right-[65px] z-10 hidden lg:block">
                         <img src={RectangleImg} width={300} height={300} alt="Rectangle Image"/>
                     </div>
                     <div className="z-10">

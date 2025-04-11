@@ -9,11 +9,11 @@ export default function Team_Testimonial () {
     return (
         <section className="mt-28">
             {/* Team */}
-            <div className="flex flex-col justify-center items-center bg-[#636AE8] rounded-[20px] mx-[120px]">
-                <h2 className="font-[Inter] font-black text-white text-[42.45px] leading-[46.2px] tracking-[-0.18px] text-center pt-[38px] w-[918px]">
+            <div className="flex flex-col justify-center items-center bg-[#636AE8] rounded-[20px] lg:mx-[120px] mx-[30px] px-5 py-5">
+                <h2 className="font-[Inter] font-black text-white text-[42.45px] leading-[46.2px] tracking-[-0.18px] text-center pt-[38px] lg:w-[918px]">
                     Elevate your team with extraordinary talent through Simplify—where innovation meets design excellence.
                 </h2>
-                <div className="flex gap-[38px] mt-14 mb-[98px]">
+                <div className="flex flex-col lg:flex-row gap-[38px] mt-14 mb-[98px]">
                     <div className="flex items-center">
                         <img src={Team1} alt="Team1" className="rounded-l-[15px] h-[94px]" width={102} height={94}/>
                         <div className="bg-white w-[167px] h-[94px] rounded-r-xl flex flex-col items-center justify-center">
@@ -61,8 +61,8 @@ export default function Team_Testimonial () {
                 </div>
             </div>
             {/* Testimonial */}
-            <div className="relative flex flex-col justify-center item-center mt-28 mx-[120px]">
-                <div className="bg-zinc-600 w-full h-[414px] rounded-[12px] flex justify-center gap-[77px] pl-[67px] pr-[20px]">
+            <div className="relative flex flex-col justify-center item-center mt-28 lg:mx-[120px] mx-[30px]">
+                <div className="bg-zinc-600 w-full lg:h-[414px] rounded-[12px] flex flex-col lg:flex-row justify-center lg:gap-[77px] gap-6 lg:pl-[67px] lg:pr-[20px] px-5 py-5 z-20">
                     <img src={InvertedCommas} alt="Inverted Commas" width={208} height={154}/>
                     <div className="flex flex-col justify-center">
                         <h1 className="font-[Montserrat] font-extrabold text-5xl text-[#636AE8] leading-[57.6px] text-left">
@@ -75,14 +75,14 @@ export default function Team_Testimonial () {
                         </p>
                     </div>
                 </div>
-                <div className="absolute top-[385px] right-[600px] bg-zinc-600 w-[50px] h-[50px] rotate-[50deg]"></div>
-                <div className="absolute top-[450px] left-[150px] flex items-center gap-8">
+                <div className="absolute lg:top-[385px] lg:right-[600px] md:top-[340px] md:left-[200px] top-[520px] left-[100px] bg-zinc-600 w-[50px] h-[50px] rotate-[50deg]"></div>
+                <div className="absolute lg:top-[450px] lg:left-[150px] md:top-[420px] md:left-[120px] top-[590px] flex flex-col lg:flex-row md:flex-row items-center gap-8">
                     <img src={Testimonial1} alt="Testimonial 1" className="rounded-full w-[210px] h-[210px] "/>
                     <div className="flex flex-col justify-center items center">
-                        <h4 className="w-[215px]font-[Arial] font-black text-[41.06px] leading-[55px] tracking-[0.2px] text-left text-white">
+                        <h4 className="w-[215px]font-[Arial] font-black text-[41.06px] leading-[55px] tracking-[0.2px] lg:text-left text-center text-white">
                             Seiya Founder
                         </h4>
-                        <p className="font-[Inter] font-normal text-[32px] leading-[28px] text-left text-white">
+                        <p className="font-[Inter] font-normal text-[32px] leading-[28px] lg:text-left text-center text-white">
                             Seiya Fashion Academy
                         </p>
                     </div>
