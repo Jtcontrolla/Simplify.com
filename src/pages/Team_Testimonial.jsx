@@ -3,7 +3,7 @@ import Team2 from "../assets/Team2.png"
 import Team3 from "../assets/Team3.png"
 import Team4 from "../assets/Team4.JPG"
 import InvertedCommas from "../assets/inverted-commas.svg"
-import Testimonial1 from "../assets/Testimonial1.png"
+import Testimonial1 from "../assets/Testimonial1.JPG"
 
 export default function Team_Testimonial () {
     return (
@@ -29,10 +29,10 @@ export default function Team_Testimonial () {
                         <img src={Team2} alt="Team2" className="rounded-l-[15px] h-[94px]" width={102} height={94}/>
                         <div className="bg-white w-[167px] h-[94px] rounded-r-[15px] flex flex-col items-center justify-center">
                             <h5 className="font-[Arial] font-bold text-[17.02px] leading-[20px] tracking-[0.2px]">
-                                David J.O
+                                Timohty-J M.M
                             </h5>
                             <p className="font-[Inter] text-[16px] font-normal leading-[24px]">
-                                App Developer
+                                Founder
                             </p>
                         </div>
                     </div>
@@ -40,10 +40,10 @@ export default function Team_Testimonial () {
                         <img src={Team3} alt="Team3" className="rounded-l-[15px] h-[94px]" width={102} height={94}/>
                         <div className="bg-white w-[167px] h-[94px] rounded-r-[15px] flex flex-col items-center justify-center">
                             <h5 className="font-[Arial] font-bold text-[17.02px] leading-[20px] tracking-[0.2px]">
-                                Chloe Xmas
+                                Fejiro dev
                             </h5>
-                            <p className="font-[Inter] text-[16px] font-normal leading-[24px]">
-                                Graphic Designer
+                            <p className="font-[Inter] text-[16px] font-normal leading-[24px] text-center">
+                                Full-Stack Developer
                             </p>
                         </div>
                     </div>
@@ -69,10 +69,9 @@ export default function Team_Testimonial () {
                             What clients say...
                         </h1>
                         <p className="font-[Montserrat] font-medium text-[18px] text-[#FFFFFF] leading-[30.6px] text-left">
-                            We stumbled upon Creatiwise once when our graphic design agency hung upon us.
-                            From day zero to the day today, we have loved to work with the team. The creativity
-                            and the ideas they add up to our requirements is always like the cherry on the cake
-                            and we love cherries!
+                        Simplify did an amazing job on our website! The UI/UX design is clean, elegant, and easy to navigate exactly 
+                        what I envisioned for Seiya Fashion Academy. Their team was professional, fast, and truly understood our brand. 
+                        I highly recommend them
                         </p>
                     </div>
                 </div>
@@ -81,10 +80,10 @@ export default function Team_Testimonial () {
                     <img src={Testimonial1} alt="Testimonial 1" className="rounded-full w-[210px] h-[210px] "/>
                     <div className="flex flex-col justify-center items center">
                         <h4 className="w-[215px]font-[Arial] font-black text-[41.06px] leading-[55px] tracking-[0.2px] text-left text-white">
-                            David J.O
+                            Seiya Founder
                         </h4>
                         <p className="font-[Inter] font-normal text-[32px] leading-[28px] text-left text-white">
-                            Mono Stale
+                            Seiya Fashion Academy
                         </p>
                     </div>
                 </div>
