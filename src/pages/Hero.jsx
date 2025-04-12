@@ -18,7 +18,7 @@ export default function Hero() {
                         hidden lg:block">
                     </div>
                     {/* Hero Text */}
-                    <h2 className="text-white font-[Montserrat] text-[22px] font-semibold lg:w-[336px] lg:h-[29px] relative z-20 lg:text-left text-center">
+                    <h2 className="text-white font-[Montserrat] text-[22px] font-semibold lg:w-[336px] lg:h-[29px] md:pt-10 pt-10 relative z-20 lg:text-left text-center">
                         WELCOME TO SIMPLIFY
                     </h2>
                     <h1 className="text-white font-[Roboto] text-4xl md:text-7xl lg:text-7xl font-[600] lg:leading-[110.6px] pt-[44px] lg:w-[553px] lg:h-[256px] relative z-20 lg:text-left text-center">
