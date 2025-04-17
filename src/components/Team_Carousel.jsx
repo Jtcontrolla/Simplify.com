@@ -38,7 +38,8 @@ export default function Team_Carousel() {
   ];
 
   return (
-    <div className="mt-14 mb-[98px] w-full h-full relative">
+    <div 
+      className="mt-14 mb-[98px] w-full h-full relative">
       <div className="relative">
         {/* Carousel */}
         <Carousel
