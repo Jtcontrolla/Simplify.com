@@ -20,12 +20,10 @@ export default function Hero() {
                   viewport={{ once: true }}>
                     {/* Gradient */}
                     <motion.div 
-                        className="absolute bottom-auto right-auto -left-[100px] -top-[370px] h-[1233px] w-[467px] rounded-[233.5px] 
-                        bg-gradient-to-b from-[rgba(84,84,212,1)] to-[rgba(84,84,212,0.42)] blur-[300px] opacity-30 -rotate-[53deg]
-                        hidden lg:block"
-                        initial={{ opacity: 0 }}
+                        className="absolute lg:bottom-auto lg:right-auto lg:-left-[100px] lg:-top-[370px] h-[300px] lg:h-[1233px] w-[200px] lg:w-[467px] rounded-[233.5px] 
+                        bg-gradient-to-b from-[rgba(84,84,212,1)] to-[rgba(84,84,212,0.42)] blur-[300px] opacity-30 -rotate-[53deg]"
+                        initial={{ opacity: 1 }}
                         animate={{
-                          opacity: [0.6, 0.8, 0.6], //Keyframes for pulsing effect
                           scale: [1, 1.05, 1], //scaling for pulsing effect
                         }}
                         transition={{
@@ -97,12 +95,10 @@ export default function Hero() {
                   viewport={{ once: true }}>
                     {/* Gradient */}
                     <motion.div 
-                        className="absolute bottom-auto left-auto right-[150px] top-[120px] h-[650px] w-[600px] rounded-[233.5px] 
-                        bg-gradient-to-b from-[rgba(251,168,28,0.26)] to-[rgba(224,86,136,0.15)] blur-[150px] opacity-60 rotate-[65deg]
-                        hidden lg:block overflow-hidden"
-                        initial={{ opacity: 0 }}
+                        className="absolute lg:bottom-auto lg:left-auto lg:right-[150px] lg:top-[120px] h-[300px] lg:h-[650px] w-[300px] lg:w-[600px] rounded-[233.5px] 
+                        bg-gradient-to-b from-[rgba(251,168,28,0.26)] to-[rgba(224,86,136,0.15)] blur-[150px] opacity-60 rotate-[65deg]"
+                        initial={{ opacity: 1 }}
                         animate={{
-                          opacity: [0.6, 0.8, 0.6], //Keyframes for pulsing effect
                           scale: [1, 1.05, 1], //scaling for pulsing effect
                         }}
                         transition={{

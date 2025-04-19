@@ -45,14 +45,14 @@ export default function Footer () {
             </div>
             <div className="flex flex-col lg:flex-row justify-between items-center py-6 gap-10">
                 <div>
-                    <button className="border border-[#BCC1CA] font-[Inter] font-normal text-sm leading-[22px] text-[#DEE1E6] px-3 py-1.5 rounded-md cursor-pointer">English</button>
+                    <button className="border border-[#BCC1CA] hover:border-[#5454D4] font-[Inter] font-normal text-sm leading-[22px] text-[#DEE1E6] hover:text-[#5454D4] px-3 py-1.5 rounded-md cursor-pointer">English</button>
                 </div>
                 <div>
                     <ul className="flex items-center list-disc font-[Inter] font-normal text-sm leading-[22px] text-white gap-4">
                         <li className="list-none">© {new Date().getFullYear()} Brand, Inc.</li>
-                        <li>Privacy</li>
-                        <li>Terms</li>
-                        <li>Sitemap</li>
+                        <li><a className="hover:text-[#5454D4] hover:font-semibold" href="#">Privacy</a></li>
+                        <li><a className="hover:text-[#5454D4] hover:font-semibold" href="#">Terms</a></li>
+                        <li><a className="hover:text-[#5454D4] hover:font-semibold" href="#">Sitemap</a></li>
                     </ul>
                 </div>
                 <div>

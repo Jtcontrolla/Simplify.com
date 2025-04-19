@@ -38,7 +38,7 @@ const Counter = ({ target, duration }) => {
   }, [isInView, target, duration]);
 
   return (
-    <span ref={ref}>{count}+</span>
+    <span ref={ref}>{count}</span>
   );
 };
 
@@ -64,12 +64,11 @@ export default function Projects () {
 
             {/* Gradient */}
             <motion.div 
-                className="absolute left-[900px] top-[2830px] h-[300px] w-[200px] rounded-[233.5px] 
-                bg-gradient-to-b from-[rgba(84,84,212,1)] to-[rgba(84,84,212,0.42)] blur-[150px] 
-                opacity-30 -rotate-[125.63deg] hidden lg:block"
-                initial={{ opacity: 0 }}
+                className="absolute lg:left-[900px] top-[4250px] lg:top-[2830px] h-[300px] w-[200px] rounded-[233.5px] 
+                bg-gradient-to-b from-[rgba(84,84,212,1)] to-[rgba(84,84,212,0.42)] lg:blur-[150px] blur-[230px] 
+                opacity-30 -rotate-[125.63deg]"
+                initial={{ opacity: 1 }}
                 animate={{
-                    opacity: [0.6, 0.8, 0.6], //Keyframes for pulsing effect
                     scale: [1, 1.05, 1], //scaling for pulsing effect
                 }}
                 transition={{
@@ -146,7 +145,7 @@ export default function Projects () {
                     whileInView={{ opacity: 1, y:0 }}
                     transition={{ duration: 1, delay: 0.5 }}
                     viewport={{ once: true }}>
-                    <Counter target={100} duration={1500}/> Projects Delivered
+                    <Counter target={100} duration={1500}/>+ Projects Delivered
                 </motion.h2>
                 <p className="text-[#E7E7F0] font-[Montserrat] text-3xl text-center mt-[17px]">
                     and counting more...
@@ -157,7 +156,7 @@ export default function Projects () {
                     whileInView={{ opacity: 1, y:0 }}
                     transition={{ duration: 1, delay: 0.7 }}
                     viewport={{ once: true }}>
-                    Simplify is a one-of-a-kind design platform trusted by <Counter target={300} duration={1500}/> innovative design teams.
+                    Simplify is a one-of-a-kind design platform trusted by <Counter target={300} duration={1500}/>+ innovative design teams.
                 </motion.p>
             </div>
 
@@ -272,7 +271,7 @@ export default function Projects () {
                             transition={{ duration: 1, delay: 0.2 }}
                             viewport={{ once: true }}>
                             <h2 className="text-white font-[Arial] lg:text-[50.86px] text-4xl font-black leading-[64px] tracking-[0.2px]">
-                                <Counter target={100} duration={2000}/>
+                                <Counter target={100} duration={2000}/>+
                             </h2>
                             <p className="text-white lg:text-[16px] text-sm font-normal leading-[24px] font-[Inter]">
                                 Designs delivered worldwide
@@ -285,7 +284,7 @@ export default function Projects () {
                             transition={{ duration: 1, delay: 0.4 }}
                             viewport={{ once: true }}>
                             <h2 className="text-white font-[Arial] lg:text-[50.86px] text-4xl font-black leading-[64px] tracking-[0.2px]">
-                                <Counter target={95} duration={2000}/>
+                                <Counter target={95} duration={2000}/>+
                             </h2>
                             <p className="text-white lg:text-[16px] text-sm font-normal leading-[24px] font-[Inter]">
                                 Designs categories available
@@ -300,7 +299,7 @@ export default function Projects () {
                             transition={{ duration: 1, delay: 0.6 }}
                             viewport={{ once: true }}>
                             <h2 className="text-white font-[Arial] lg:text-[50.86px] text-4xl font-black leading-[64px] tracking-[0.2px]">
-                                <Counter target={50} duration={2000}/>
+                                <Counter target={50} duration={2000}/>%
                             </h2>
                             <p className="text-white lg:text-[16px] text-sm font-normal leading-[24px] font-[Inter]">
                                 Less in design costs
@@ -313,7 +312,7 @@ export default function Projects () {
                             transition={{ duration: 1, delay: 0.8 }}
                             viewport={{ once: true }}>
                             <h2 className="text-white font-[Arial] lg:text-[50.86px] text-4xl font-black leading-[64px] tracking-[0.2px]">
-                                <Counter target={99} duration={2000}/>
+                                <Counter target={99} duration={2000}/>%
                             </h2>
                             <p className="text-white lg:text-[16px] text-sm font-normal leading-[24px] font-[Inter]">
                                 Customer satisfaction rate

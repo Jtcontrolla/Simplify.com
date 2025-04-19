@@ -60,12 +60,11 @@ export default function Services () {
 
              {/* Gradient */}
              <motion.div 
-                className="absolute left-[-50px] top-[1700px] h-[508.5px] w-[467px] rounded-[233.5px] 
-                bg-gradient-to-b from-[rgba(84,84,212,1)] to-[rgba(84,84,212,0.42)] blur-[180px] 
-                opacity-30 -rotate-[125.63deg] hidden lg:block"
-                initial={{ opacity: 0 }}
+                className="absolute lg:left-[-50px] lg:top-[1700px] h-[300px] lg:h-[508.5px] w-[300px] lg:w-[467px] rounded-[233.5px] 
+                bg-gradient-to-b from-[rgba(84,84,212,1)] to-[rgba(84,84,212,0.42)] lg:blur-[180px] blur-[250px] 
+                opacity-30 -rotate-[125.63deg]"
+                initial={{ opacity: 1 }}
                 animate={{
-                    opacity: [0.6, 0.8, 0.6], //Keyframes for pulsing effect
                     scale: [1, 1.05, 1], //Scaling for pulsing effect
                 }}
                 transition={{
@@ -75,12 +74,11 @@ export default function Services () {
                 }}>
             </motion.div>
             <motion.div 
-                className="absolute left-[22px] top-[1960px] h-[1400px] w-[660px] rounded-[233.5px] 
+                className="absolute lg:left-[22px] top-[3000px] lg:top-[1960px] h-[300px] lg:h-[1400px] w-[300px] lg:w-[660px] rounded-[233.5px] 
                 bg-gradient-to-b from-[rgba(251,168,28,0.4)] to-[rgba(224,86,136,0.15)] blur-[300px] 
-                opacity-30 rotate-[67.1deg] hidden lg:block overflow-hidden"
-                initial={{ opacity: 0 }}
+                opacity-30 rotate-[67.1deg]"
+                initial={{ opacity: 1 }}
                 animate={{
-                    opacity: [0.6, 0.8, 0.6], //Keyframes for pulsing effect
                     scale: [1, 1.05, 1], //Scaling for pulsing effect
                 }}
                 transition={{
