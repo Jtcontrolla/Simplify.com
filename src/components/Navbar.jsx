@@ -5,13 +5,29 @@ import { FaBars, FaTimes } from "react-icons/fa";
 export default function Navbar() {
   const [scrolling, setScrolling] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
+  const [activeSection, setActiveSection] = useState("home");
 
   useEffect(() => {
     const handleScroll = () => {
       setScrolling(window.scrollY > 50);
+      // Section highlight logic
+      const sectionIds = ["home", "about", "services", "pricing", "projects", "contact"];
+      let current = "home";
+      for (let id of sectionIds) {
+        const el = document.getElementById(id);
+        if (el) {
+          const rect = el.getBoundingClientRect();
+          if (rect.top <= 80 && rect.bottom > 80) {
+            current = id;
+            break;
+          }
+        }
+      }
+      setActiveSection(current);
     };
 
     window.addEventListener("scroll", handleScroll);
+    handleScroll(); // Initial check
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
@@ -19,6 +35,7 @@ export default function Navbar() {
     { name: "Home", id: "home" },
     { name: "About us", id: "about" },
     { name: "Services", id: "services" },
+    { name: "Pricing", id: "pricing" },
     { name: "Our Project", id: "projects" },
   ];
 
@@ -39,7 +56,9 @@ export default function Navbar() {
           <li key={item.name}>
             <a
               href={`#${item.id}`}
-              className="hover:text-[#5454D4] hover:font-semibold"
+              className={`hover:text-[#5454D4] hover:font-semibold ${
+                activeSection === item.id ? "text-[#5454D4] font-semibold" : ""
+              }`}
             >
               {item.name}
             </a>
@@ -81,7 +100,9 @@ export default function Navbar() {
               <a
                 href={`#${item.id}`}
                 onClick={() => setIsOpen(false)}
-                className="hover:text-[#5454D4] hover:font-semibold"
+                className={`hover:text-[#5454D4] hover:font-semibold ${
+                  activeSection === item.id ? "text-[#5454D4] font-semibold" : ""
+                }`}
               >
                 {item.name}
               </a>

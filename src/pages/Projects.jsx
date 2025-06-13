@@ -69,7 +69,7 @@ export default function Projects () {
                 opacity-30 -rotate-[125.63deg]"
                 initial={{ opacity: 1 }}
                 animate={{
-                    scale: [1, 1.05, 1], //scaling for pulsing effect
+                    scale: [1, 1.01, 1], //scaling for pulsing effect
                 }}
                 transition={{
                     duration: 2,
@@ -237,7 +237,7 @@ export default function Projects () {
                 </motion.div>
             </div>
             
-            <div className="flex flex-col lg:flex-row bg-[#5454D4] text-white rounded-3xl mt-20 lg:h-95 justify-center items-center lg:gap-35 gap-5 lg:mx-[120px] mx-[30px] px-5 py-5">
+            <div className="flex flex-col lg:flex-row bg-[#5454D4] text-white rounded-3xl mt-20 lg:h-95 justify-center items-center lg:gap-35 gap-5 lg:mx-[120px] mx-[30px] p-5">
                 <motion.div 
                     className="lg:mt-28 md:justify-items-center lg:justify-items-start"
                     initial={{ opacity: 0, x: -50 }}

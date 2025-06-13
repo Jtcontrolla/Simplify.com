@@ -65,7 +65,7 @@ export default function Services () {
                 opacity-30 -rotate-[125.63deg]"
                 initial={{ opacity: 1 }}
                 animate={{
-                    scale: [1, 1.05, 1], //Scaling for pulsing effect
+                    scale: [1, 1.01, 1], //Scaling for pulsing effect
                 }}
                 transition={{
                     duration:2,
@@ -79,7 +79,7 @@ export default function Services () {
                 opacity-30 rotate-[67.1deg]"
                 initial={{ opacity: 1 }}
                 animate={{
-                    scale: [1, 1.05, 1], //Scaling for pulsing effect
+                    scale: [1, 1.01, 1], //Scaling for pulsing effect
                 }}
                 transition={{
                     duration:2,

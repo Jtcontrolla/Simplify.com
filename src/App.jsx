@@ -2,6 +2,7 @@ import Navbar from './components/Navbar';
 import Home from './pages/Hero';
 import About from './pages/About';
 import Services from './pages/Services';
+import Pricing from './pages/Pricing';
 import Projects from './pages/Projects';
 import Team_Testimonial from './pages/Team_Testimonial';
 import Contact from './pages/Contact';
@@ -15,6 +16,7 @@ function App() {
         <Home/>
         <About/>
         <Services/>
+        <Pricing/>
         <Projects/>
         <Team_Testimonial/>
         <Contact/>

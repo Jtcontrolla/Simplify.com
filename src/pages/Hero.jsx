@@ -24,7 +24,7 @@ export default function Hero() {
                         bg-gradient-to-b from-[rgba(84,84,212,1)] to-[rgba(84,84,212,0.42)] blur-[300px] opacity-30 -rotate-[53deg]"
                         initial={{ opacity: 1 }}
                         animate={{
-                          scale: [1, 1.05, 1], //scaling for pulsing effect
+                          scale: [1, 1.01, 1], //scaling for pulsing effect
                         }}
                         transition={{
                           duration: 2,
@@ -99,7 +99,7 @@ export default function Hero() {
                         bg-gradient-to-b from-[rgba(251,168,28,0.26)] to-[rgba(224,86,136,0.15)] blur-[150px] opacity-60 rotate-[65deg]"
                         initial={{ opacity: 1 }}
                         animate={{
-                          scale: [1, 1.05, 1], //scaling for pulsing effect
+                          scale: [1, 1.01, 1], //scaling for pulsing effect
                         }}
                         transition={{
                           duration: 2,

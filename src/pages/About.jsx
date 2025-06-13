@@ -66,186 +66,42 @@ export default function About() {
                 </motion.p>            
             </motion.div>
             {/* Images */}
-            <motion.img src={UI_UX} alt="UI/UX" 
-                className="absolute top-[1189px] left-[-45px] w-[219px] h-[219px] hidden lg:block"
-                animate={{ 
-                    scale: [0.8, 1, 0.8]
-                }}
-                transition={{
-                    duration: 2,
-                    repeat: Infinity,
-                    ease: "easeInOut"
-                }}/>
-            <motion.img src={AdobeIllust} alt="Adobe Illustrator" 
-                className="absolute top-[1257px] left-[187px] w-[112px] h-[112px] opacity-40 hidden lg:block"
-                animate={{ 
-                    scale: [0.8, 1, 0.8]
-                }}
-                transition={{
-                    duration: 2,
-                    repeat: Infinity,
-                    ease: "easeInOut"
-                }}/>
-            <motion.img src={Figma} alt="Figma" 
-                className="absolute top-[1115px] left-[747px] w-[135px] h-[135px] opacity-60 hidden lg:block"
-                animate={{ 
-                    scale: [0.8, 1, 0.8]
-                }}
-                transition={{
-                    duration: 2,
-                    repeat: Infinity,
-                    ease: "easeInOut"
-                }}/>
-            <motion.img src={React} alt="React" 
-                className="absolute top-[1179px] left-[1080px] w-[84px] h-[84px] opacity-50 hidden lg:block"
-                animate={{ 
-                    scale: [0.8, 1, 0.8]
-                }}
-                transition={{
-                    duration: 2,
-                    repeat: Infinity,
-                    ease: "easeInOut"
-                }}/>
-            <motion.img src={NodeJS} alt="NodeJS" 
-                className="absolute top-[1263px] left-[950px] w-[84px] h-[84px] opacity-40 hidden lg:block"
-                animate={{ 
-                    scale: [0.8, 1, 0.8]
-                }}
-                transition={{
-                    duration: 2,
-                    repeat: Infinity,
-                    ease: "easeInOut"
-                }}/>
-            <motion.img src={JQuery} alt="JQuery" 
-                className="absolute top-[1373px] left-[950px] w-[84px] h-[84px] opacity-50 hidden lg:block"
-                animate={{ 
-                    scale: [0.8, 1, 0.8]
-                }}
-                transition={{
-                    duration: 2,
-                    repeat: Infinity,
-                    ease: "easeInOut"
-                }}/>
-            <motion.img src={HTML} alt="HTML" 
-                className="absolute top-[1481px] left-[1030px] w-[80px] h-[80px] opacity-50 hidden lg:block"
-                animate={{ 
-                    scale: [0.8, 1, 0.8]
-                }}
-                transition={{
-                    duration: 2,
-                    repeat: Infinity,
-                    ease: "easeInOut"
-                }}/>
-            <motion.img src={CSS} alt="CSS" 
-                className="absolute top-[1471px] left-[1123px] w-[92px] h-[92px] opacity-50 hidden lg:block"
-                animate={{ 
-                    scale: [0.8, 1, 0.8]
-                }}
-                transition={{
-                    duration: 2,
-                    repeat: Infinity,
-                    ease: "easeInOut"
-                }}/>
-            <motion.img src={Tailwind} alt="Tailwind" 
-                className="absolute top-[1373px] left-[1230px] w-[34px] h-[84px] opacity-50 hidden lg:block"
-                animate={{ 
-                    scale: [0.8, 1, 0.8]
-                }}
-                transition={{
-                    duration: 2,
-                    repeat: Infinity,
-                    ease: "easeInOut"
-                }}/>
-            <motion.img src={Python} alt="Python" 
-                className="absolute top-[1244px] left-[1230px] w-[34px] h-[86px] opacity-50 hidden lg:block"
-                animate={{ 
-                    scale: [0.8, 1, 0.8]
-                }}
-                transition={{
-                    duration: 2,
-                    repeat: Infinity,
-                    ease: "easeInOut"
-                }}/>
-            <motion.img src={Development} alt="Development" 
-                className="absolute top-[1335px] left-[1100px] w-[84px] h-[83px] opacity-50 hidden lg:block"
-                animate={{ 
-                    scale: [0.8, 1, 0.8]
-                }}
-                transition={{
-                    duration: 2,
-                    repeat: Infinity,
-                    ease: "easeInOut"
-                }}/>
-            <motion.img src={CustomerService} alt="CustomerService" 
-                className="absolute top-[1596px] left-[900px] w-[80px] h-[80px] opacity-50 hidden lg:block"
-                animate={{ 
-                    scale: [0.8, 1, 0.8]
-                }}
-                transition={{
-                    duration: 2,
-                    repeat: Infinity,
-                    ease: "easeInOut"
-                }}/>
-            <motion.img src={AdobeID} alt="AdobeID" 
-                className="absolute top-[1613px] left-[600px] w-[112px] h-[112px] opacity-50 hidden lg:block"
-                animate={{ 
-                    scale: [0.8, 1, 0.8]
-                }}
-                transition={{
-                    duration: 2,
-                    repeat: Infinity,
-                    ease: "easeInOut"
-                }}/>
-            <motion.img src={Framer} alt="Framer" 
-                className="absolute top-[1668px] left-[1090px] w-[112px] h-[112px] hidden lg:block"
-                animate={{ 
-                    scale: [0.8, 1, 0.8]
-                }}
-                transition={{
-                    duration: 2,
-                    repeat: Infinity,
-                    ease: "easeInOut"
-                }}/>
-            <motion.img src={Java} alt="Java" 
-                className="absolute top-[1701px] left-[308px] w-[84px] h-[83px] opacity-50 hidden lg:block"
-                animate={{ 
-                    scale: [0.8, 1, 0.8]
-                }}
-                transition={{
-                    duration: 2,
-                    repeat: Infinity,
-                    ease: "easeInOut"
-                }}/>
-            <motion.img src={Swift} alt="Swift" 
-                className="absolute top-[1701px] left-[405px] w-[84px] h-[84px] opacity-50 hidden lg:block"
-                animate={{ 
-                    scale: [0.8, 1, 0.8]
-                }}
-                transition={{
-                    duration: 2,
-                    repeat: Infinity,
-                    ease: "easeInOut"
-                }}/>
-            <motion.img src={Flutter} alt="Flutter" 
-                className="absolute top-[1701px] left-[490px] w-[84px] h-[84px] opacity-50 hidden lg:block"
-                animate={{ 
-                    scale: [0.8, 1, 0.8]
-                }}
-                transition={{
-                    duration: 2,
-                    repeat: Infinity,
-                    ease: "easeInOut"
-                }}/>
-            <motion.img src={AdobeXD} alt="Flutter" 
-                className="absolute top-[1634px] left-[82.59px] w-[100.69px] h-[100.69px] hidden lg:block"
-                animate={{ 
-                    scale: [0.8, 1, 0.8]
-                }}
-                transition={{
-                    duration: 2,
-                    repeat: Infinity,
-                    ease: "easeInOut"
-                }}/>
+            <img src={UI_UX} alt="UI/UX" 
+                className="absolute top-[1189px] left-[-45px] w-[219px] h-[219px] hidden lg:block"/>
+            <img src={AdobeIllust} alt="Adobe Illustrator" 
+                className="absolute top-[1257px] left-[187px] w-[112px] h-[112px] opacity-40 hidden lg:block"/>
+            <img src={Figma} alt="Figma" 
+                className="absolute top-[1115px] left-[747px] w-[135px] h-[135px] opacity-60 hidden lg:block"/>
+            <img src={React} alt="React" 
+                className="absolute top-[1179px] left-[1080px] w-[84px] h-[84px] opacity-50 hidden lg:block"/>
+            <img src={NodeJS} alt="NodeJS" 
+                className="absolute top-[1263px] left-[950px] w-[84px] h-[84px] opacity-40 hidden lg:block"/>
+            <img src={JQuery} alt="JQuery" 
+                className="absolute top-[1373px] left-[950px] w-[84px] h-[84px] opacity-50 hidden lg:block"/>
+            <img src={HTML} alt="HTML" 
+                className="absolute top-[1481px] left-[1030px] w-[80px] h-[80px] opacity-50 hidden lg:block"/>
+            <img src={CSS} alt="CSS" 
+                className="absolute top-[1471px] left-[1123px] w-[92px] h-[92px] opacity-50 hidden lg:block"/>
+            <img src={Tailwind} alt="Tailwind" 
+                className="absolute top-[1373px] left-[1230px] w-[34px] h-[84px] opacity-50 hidden lg:block"/>
+            <img src={Python} alt="Python" 
+                className="absolute top-[1244px] left-[1230px] w-[34px] h-[86px] opacity-50 hidden lg:block"/>
+            <img src={Development} alt="Development" 
+                className="absolute top-[1335px] left-[1100px] w-[84px] h-[83px] opacity-50 hidden lg:block"/>
+            <img src={CustomerService} alt="CustomerService" 
+                className="absolute top-[1596px] left-[900px] w-[80px] h-[80px] opacity-50 hidden lg:block"/>
+            <img src={AdobeID} alt="AdobeID" 
+                className="absolute top-[1613px] left-[600px] w-[112px] h-[112px] opacity-50 hidden lg:block"/>
+            <img src={Framer} alt="Framer" 
+                className="absolute top-[1668px] left-[1090px] w-[112px] h-[112px] hidden lg:block"/>
+            <img src={Java} alt="Java" 
+                className="absolute top-[1701px] left-[308px] w-[84px] h-[83px] opacity-50 hidden lg:block"/>
+            <img src={Swift} alt="Swift" 
+                className="absolute top-[1701px] left-[405px] w-[84px] h-[84px] opacity-50 hidden lg:block"/>
+            <img src={Flutter} alt="Flutter" 
+                className="absolute top-[1701px] left-[490px] w-[84px] h-[84px] opacity-50 hidden lg:block"/>
+            <img src={AdobeXD} alt="Flutter" 
+                className="absolute top-[1634px] left-[82.59px] w-[100.69px] h-[100.69px] hidden lg:block"/>
         </section>
     );
 }
