@@ -18,7 +18,6 @@ import Java from '../assets/Java.svg'
 import Framer from '../assets/Framer.svg'
 import AdobeXD from '../assets/AdobeXD.svg'
 import { motion } from "motion/react"
-import { easeInOut } from 'motion'
 
 export default function About() {
     return (

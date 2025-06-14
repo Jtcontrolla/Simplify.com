@@ -1,4 +1,6 @@
+/* eslint-disable no-unused-vars */
 import { BiCheck } from "react-icons/bi"
+import { motion } from "motion/react"
 
 export default function Pricing() {
     return (
@@ -14,7 +16,12 @@ export default function Pricing() {
             {/* Pricing Cards */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 mt-5 lg:px-[120px] mx-[30px] lg:mx-0">
                 {/* Basic Package */}
-                <div className="flex flex-col bg-[#5454D4] text-white rounded-3xl p-5">
+                <motion.div 
+                    className="flex flex-col bg-[#5454D4] text-white rounded-3xl p-5"
+                    initial={{ opacity: 0, y: -50 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 1, delay: 0.2 }}
+                    viewport={{ once: true }}>
                     <h4 className="font-[Poppins] text-2xl font-semibold mb-4">
                         Basic Website Package
                     </h4>
@@ -41,9 +48,14 @@ export default function Pricing() {
                             <li className="flex gap-2 items-center text-[16px]"><BiCheck className="text-[#E8618C]" size={36}/>Project delivery in 1-2 weeks</li>
                         </ul>
                     </div>
-                </div>
+                </motion.div>
                 {/* Business Package */}
-                <div className="flex flex-col bg-[#5454D4] text-white rounded-3xl p-5">
+                <motion.div 
+                    className="flex flex-col bg-[#5454D4] text-white rounded-3xl p-5"
+                    initial={{ opacity: 0, y: -50 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 1, delay: 0.4 }}
+                    viewport={{ once: true }}>
                     <h4 className="font-[Poppins] text-2xl font-semibold mb-4">
                         Business Website Package
                     </h4>
@@ -72,9 +84,14 @@ export default function Pricing() {
                             <li className="flex gap-2 items-center text-[16px]"><BiCheck className="text-[#E8618C]" size={36}/>Project delivery in 2-3 weeks</li>
                         </ul>
                     </div>
-                </div>
+                </motion.div>
                 {/* E-Commerce Package */}
-                <div className="flex flex-col bg-[#5454D4] text-white rounded-3xl p-5">
+                <motion.div 
+                    className="flex flex-col bg-[#5454D4] text-white rounded-3xl p-5"
+                    initial={{ opacity: 0, y: -50 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 1, delay: 0.6 }}
+                    viewport={{ once: true }}>
                     <h4 className="font-[Poppins] text-2xl font-semibold mb-4">
                         E-Commerce Website Package
                     </h4>
@@ -102,10 +119,15 @@ export default function Pricing() {
                             <li className="flex gap-2 items-center text-[16px]"><BiCheck className="text-[#E8618C]" size={36}/>Project delivery in 3-5 weeks</li>
                         </ul>
                     </div>
-                </div>
+                </motion.div>
                 {/* Product Design Packages */}
                 {/* Starter Design Package */}
-                <div className="flex flex-col bg-[#5454D4] text-white rounded-3xl p-5">
+                <motion.div 
+                    className="flex flex-col bg-[#5454D4] text-white rounded-3xl p-5"
+                    initial={{ opacity: 0, y: -50 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 1.5, delay: 0.2 }}
+                    viewport={{ once: true }}>
                     <h4 className="font-[Poppins] text-2xl font-semibold mb-4">
                         Starter Design Package
                     </h4>
@@ -132,9 +154,14 @@ export default function Pricing() {
                             <li className="flex gap-2 items-center text-[16px]"><BiCheck className="text-[#E8618C]" size={36}/>Delivery in 4-6 days</li>
                         </ul>
                     </div>
-                </div>
+                </motion.div>
                 {/* Growth Design Package */}
-                <div className="flex flex-col bg-[#5454D4] text-white rounded-3xl p-5">
+                <motion.div 
+                    className="flex flex-col bg-[#5454D4] text-white rounded-3xl p-5"
+                    initial={{ opacity: 0, y: -50 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 1.5, delay: 0.4 }}
+                    viewport={{ once: true }}>
                     <h4 className="font-[Poppins] text-2xl font-semibold mb-4">
                         Growth Design Package
                     </h4>
@@ -162,9 +189,14 @@ export default function Pricing() {
                             <li className="flex gap-2 items-center text-[16px]"><BiCheck className="text-[#E8618C]" size={36}/>Delivery in 7-10 days</li>
                         </ul>
                     </div>
-                </div>
+                </motion.div>
                 {/* Advanced Product Design Package */}
-                <div className="flex flex-col bg-[#5454D4] text-white rounded-3xl p-5">
+                <motion.div 
+                    className="flex flex-col bg-[#5454D4] text-white rounded-3xl p-5"
+                    initial={{ opacity: 0, y: -50 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 1.5, delay: 0.6 }}
+                    viewport={{ once: true }}>
                     <h4 className="font-[Poppins] text-2xl font-semibold mb-4">
                         Advanced Product Design Package
                     </h4>
@@ -192,7 +224,7 @@ export default function Pricing() {
                             <li className="flex gap-2 items-center text-[16px]"><BiCheck className="text-[#E8618C]" size={36}/>Delivery in 2-3 weeks</li>
                         </ul>
                     </div>
-                </div>
+                </motion.div>
             </div>
         </section>
     )

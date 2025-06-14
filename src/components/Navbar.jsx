@@ -11,7 +11,7 @@ export default function Navbar() {
     const handleScroll = () => {
       setScrolling(window.scrollY > 50);
       // Section highlight logic
-      const sectionIds = ["home", "about", "services", "pricing", "projects", "contact"];
+      const sectionIds = ["home", "about", "services", "pricing", "projects"];
       let current = "home";
       for (let id of sectionIds) {
         const el = document.getElementById(id);

@@ -1,11 +1,9 @@
 /* eslint-disable no-unused-vars */
 import Plus from "../assets/Plus.svg"
 import Triangles from "../assets/Triangles.svg";
-import { MdOutlineDeveloperMode } from "react-icons/md";
-import { MdOutlineDesignServices } from "react-icons/md";
-import { AiOutlineAntDesign } from "react-icons/ai";
+import { MdOutlineDeveloperMode, MdOutlineDesignServices } from "react-icons/md";
+import { AiOutlineAntDesign, AiOutlineProduct } from "react-icons/ai";
 import { FaBrain } from "react-icons/fa";
-import { AiOutlineProduct } from "react-icons/ai";
 import { GrVmMaintenance } from "react-icons/gr";
 import { motion } from "motion/react"
 
@@ -14,9 +12,9 @@ export default function Services () {
         <section className="bg-[#19191B mt-35" id="services">
             <div className="flex justify-center">
                 <motion.h2 
-                    className="text-white font-[Inter] text-5xl lg:text-[60px] font-[600] lg:leading-[70.6px] text-center md:w-[695px] lg:h-[140px] lg:mt-15 px-[30px] relative z-20"
+                    className="text-white font-[Poppins] text-5xl lg:text-[60px] font-[600] lg:leading-[70.6px] text-center md:w-[695px] lg:h-[140px] lg:mt-15 px-[30px] relative z-20"
                     initial={{ opacity: 0, y: -50 }}
-                    animate={{ opacity: 1, y: 0 }}
+                    whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 1, delay: 0.5 }}
                     viewport={{ once: true }}>
                     The Service We Provide
